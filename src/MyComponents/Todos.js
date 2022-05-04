@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Todos() {
+export const Todos = (props) => {
   return (
-    <div className='container'>
-      
-    </div>
+    <div>
+      {/* {props.todos} */}
+      </div>
   )
 }
